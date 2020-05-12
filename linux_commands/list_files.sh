@@ -9,7 +9,7 @@
 cd $HOME
 cd ~/workspace
 cd QBox/logs
-a=$(ls -lr)
+a=$(ls -ltr)
 IFS='$'
 echo -e ${a[0]}
 
