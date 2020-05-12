@@ -6,6 +6,10 @@
     #    sorted by modification time in reverse order (newest last). 
     #    This command should work irrespective of the current working directory.
     # 2) Execute the script before submission and confirm the output
-
-
+cd $HOME
+cd ~/workspace
+cd QBox/logs
+a=$(ls -lr)
+IFS='$'
+echo -e ${a[0]}
 

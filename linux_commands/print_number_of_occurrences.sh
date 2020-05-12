@@ -8,5 +8,8 @@
     # 2) If there are multiple commands, either put a semicolon between the commands or write each command on a separate line
     # 3) Execute the script before submission and confirm the output
 
-
+cd ~/workspace
+cd QBox/logs
+a=$(grep -c "230 Login successful" vsftpd1.log)
+echo ${a[0]}
 
