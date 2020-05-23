@@ -1,0 +1,6 @@
+vsftpd_v6 had inorrect file permission after the upload and the command that I used to checking
+ls -ltr
+&
+ls -ls
+& 
+ls -al

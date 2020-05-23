@@ -1,0 +1,2 @@
+vsftpd_v2 and vsftpd_v3 were failing to do an upload I got error message.
+And also interestingly the connection got disconnected.
