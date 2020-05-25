@@ -1,0 +1,9 @@
+113,117,969,955
+They have happen because of slow network.
+Packet loss.
+Packets getting dropped.
+TCP is a connection oriented protocol.
+The meaning by functional aspect of the above statement is --> it maintains
+ACKS for every data packet that is sent.
+If it does not see ACK, it will retransmit, so even in ACK delays you many notice 
+Retransmissions.
