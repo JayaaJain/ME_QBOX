@@ -1,0 +1,6 @@
+Initial sequence number is always 0 as a reference:
+So it seq=0 goes from sender to receiver and receiver asks this seq=0 with his own seq=0 and also indicated that he is expecting next sequence number=1 by setting that value to ack flag/packet.
+
+Sender----> seq=0====>        Receiver.
+Sender<==== seq=0, ack=1<==== Receiver.
+Sender ======> Ack=1=======>  Receiver.
