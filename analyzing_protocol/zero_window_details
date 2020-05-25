@@ -1,3 +1,3 @@
-7845,8089
+7485,8089,9025
 QBox server use to request clients to slow down while still keeping the connection active by setting window size to 0.
 
